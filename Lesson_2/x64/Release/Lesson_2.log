@@ -1,0 +1,10 @@
+﻿  task_for_lecture2.cpp
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_2\task_for_lecture2.cpp(21): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    	cilk_for(long i = 0; i < size; ++i)
+    	^
+  
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_2\task_for_lecture2.cpp(50): warning #3946: "_Cilk_spawn" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    		cilk_spawn ParallelSort(begin, middle);
+    		^
+  
+  Lesson_2.vcxproj -> E:\Univer\5_kurs\2_semeetr\IPS\Lesson_2\x64\Release\Lesson_2.exe
