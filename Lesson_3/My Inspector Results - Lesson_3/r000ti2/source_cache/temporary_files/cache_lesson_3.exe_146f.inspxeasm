@@ -1,0 +1,61 @@
+5040	push rdi
+5041	push r12
+5043	push r13
+5045	push r14
+5047	push r15
+5049	push rbp
+5050	mov r10d, edx
+5053	cmp r10d, r8d
+5056	jnb 0x1473
+5062	mov rax, qword ptr [rcx+0x10]
+5066	sub r8d, r10d
+5069	mov rdx, qword ptr [rcx]
+5072	movsxd r9, dword ptr [rax]
+5075	xor eax, eax
+5077	mov edi, dword ptr [rcx+0x1c]
+5080	add edi, r10d
+5083	mov rbp, qword ptr [rcx+0x8]
+5087	add edi, eax
+5089	movsxd rdi, edi
+5092	movsxd r12, dword ptr [rcx+0x18]
+5096	mov rbp, qword ptr [rbp]
+5100	mov r14, r12
+5103	lea r13, ptr [r12*8]
+5111	mov r15, qword ptr [rbp+rdi*8]
+5116	mov r11, qword ptr [rbp+r13*1]
+5121	movsd xmm0, qword ptr [r15+r13*1]
+5127	xorps xmm0, xmmword ptr [rip+0x3ef2]
+5134	divsd xmm0, qword ptr [r11+r13*1]
+5140	xor r11d, r11d
+5143	cmp r12, r9
+5146	jnle 0x1464
+5148	mov r13, r9
+5151	sub r13, r12
+5154	inc r13
+5157	mov rbp, qword ptr [rbp+r14*8]
+5162	lea r15, ptr [r15+r12*8]
+5166	lea r14, ptr [rbp+r12*8]
+5171	movsd xmm1, qword ptr [r14+r11*8]
+5177	mulsd xmm1, xmm0
+5181	addsd xmm1, qword ptr [r15+r11*8]
+5187	movsd qword ptr [r15+r11*8], xmm1
+5193	inc r11
+5196	cmp r11, r13
+5199	jnb 0x1464
+5201	mov rbp, qword ptr [rcx+0x8]
+5205	movsxd r14, dword ptr [rcx+0x18]
+5209	mov rbp, qword ptr [rbp]
+5213	mov r15, qword ptr [rbp+rdi*8]
+5218	jmp 0x1425
+5220	inc eax
+5222	cmp eax, r8d
+5225	jb 0x13d5
+5231	movsd qword ptr [rdx], xmm0
+5235	pop rbp
+5236	pop r15
+5238	pop r14
+5240	pop r13
+5242	pop r12
+5244	pop rdi
+5245	ret 
+5246	data16 nop

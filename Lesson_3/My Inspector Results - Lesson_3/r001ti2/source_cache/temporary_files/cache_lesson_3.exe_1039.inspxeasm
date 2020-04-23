@@ -1,0 +1,186 @@
+4096	main:
+4096	push rdi
+4097	push r12
+4099	push r13
+4101	push r14
+4103	push r15
+4105	push rbp
+4106	sub rsp, 0x78
+4110	xor edx, edx
+4112	xor ecx, ecx
+4114	call 0x1500 <__intel_new_feature_proc_init>
+4119	xor ecx, ecx
+4121	call qword ptr [rip+0x4231]
+4127	mov ecx, eax
+4129	call qword ptr [rip+0x4239]
+4135	mov ecx, 0x2ee0
+4140	call 0x35c4 <??_U@YAPEAX_K@Z>
+4145	mov rdi, rax
+4148	mov ecx, 0x2ee0
+4153	call 0x35c4 <??_U@YAPEAX_K@Z>
+4158	mov rbp, rax
+4161	xor r12d, r12d
+4164	mov ecx, 0x2ee8
+4169	call 0x35c4 <??_U@YAPEAX_K@Z>
+4174	mov qword ptr [rdi+r12*8], rax
+4178	inc r12
+4181	cmp r12, 0x5dc
+4188	jl 0x1044
+4190	xor r14d, r14d
+4193	mov r12, qword ptr [rdi+r14*8]
+4197	xor r13d, r13d
+4200	call qword ptr [rip+0x41fa]
+4206	mov r10d, eax
+4209	mov eax, 0x68db8bad
+4214	mov r8d, r10d
+4217	imul r10d
+4220	sar r8d, 0x1f
+4224	pxor xmm0, xmm0
+4228	sar edx, 0xa
+4231	sub edx, r8d
+4234	imul r9d, edx, 0xfffff63c
+4241	lea r10d, ptr [r10+r9*1+0x1]
+4246	cvtsi2sd xmm0, r10d
+4251	movsd qword ptr [r12+r13*8], xmm0
+4257	inc r13
+4260	cmp r13, 0x5dc
+4267	jle 0x1068
+4269	inc r14
+4272	cmp r14, 0x5dc
+4279	jl 0x1061
+4281	mov qword ptr [rsp+0x60], rdi
+4286	mov dword ptr [rsp+0x70], 0x5dc
+4294	mov qword ptr [rsp+0x68], rbp
+4299	call 0x35b0 <_Query_perf_frequency>
+4304	mov r14, rax
+4307	call 0x35b6 <_Query_perf_counter>
+4312	mov r15, rax
+4315	xor edx, edx
+4317	mov r8d, dword ptr [rsp+0x70]
+4322	xor r12d, r12d
+4325	test r8d, r8d
+4328	jle 0x113c
+4330	dec r12d
+4333	lea r13d, ptr [rdx+0x1]
+4337	cmp r13d, r8d
+4340	jnl 0x113c
+4342	add r8d, r12d
+4345	lea r9, ptr [rsp+0x70]
+4350	mov qword ptr [r9-0x40], r9
+4354	lea rcx, ptr [rip+0x2a7]
+4361	mov dword ptr [r9-0x38], edx
+4365	lea rdx, ptr [rsp+0x20]
+4370	xor r9d, r9d
+4373	lea r10, ptr [rsp+0x58]
+4378	mov qword ptr [rdx], r10
+4381	lea r11, ptr [rsp+0x60]
+4386	mov qword ptr [rdx+0x8], r11
+4390	mov dword ptr [rdx+0x1c], r13d
+4394	call 0x35bc <__cilkrts_cilk_for_32>
+4399	mov r8d, dword ptr [rsp+0x70]
+4404	mov edx, r13d
+4407	cmp r13d, r8d
+4410	jl 0x10ea
+4412	call 0x35b0 <_Query_perf_frequency>
+4417	mov r12, rax
+4420	call 0x35b6 <_Query_perf_counter>
+4425	cqo 
+4427	pxor xmm1, xmm1
+4431	idiv r12
+4434	mov r9, rax
+4437	mov rax, r15
+4440	mov r10, rdx
+4443	lea rcx, ptr [rip+0x41b6]
+4450	cqo 
+4452	idiv r14
+4455	sub r9, rax
+4458	mov r8, rdx
+4461	imul rax, r10, 0x3b9aca00
+4468	imul r15, r9, 0x3b9aca00
+4475	cqo 
+4477	idiv r12
+4480	mov r11, rax
+4483	imul rax, r8, 0x3b9aca00
+4490	cqo 
+4492	idiv r14
+4495	sub r11, rax
+4498	add r15, r11
+4501	cvtsi2sd xmm1, r15
+4506	divsd xmm1, qword ptr [rip+0x416e]
+4514	movq rdx, xmm1
+4519	call 0x1480 <printf>
+4524	mov rax, qword ptr [rsp+0x60]
+4529	movsxd r15, dword ptr [rsp+0x70]
+4534	mov rdx, qword ptr [rsp+0x68]
+4539	mov r8, qword ptr [rax+r15*8-0x8]
+4544	movsd xmm0, qword ptr [r8+r15*8]
+4550	divsd xmm0, qword ptr [r8+r15*8-0x8]
+4557	movsd qword ptr [rdx+r15*8-0x8], xmm0
+4564	lea ecx, ptr [r15-0x1]
+4568	mov r14d, ecx
+4571	neg r14d
+4574	add r15d, 0xfffffffe
+4578	movsxd r12, r15d
+4581	js 0x1266
+4583	mov r13d, ecx
+4586	mov r8d, dword ptr [rsp+0x70]
+4591	movsxd r8, r8d
+4594	mov r9, qword ptr [rax+r12*8]
+4598	movsd xmm0, qword ptr [r9+r8*8]
+4604	cmp r13d, r8d
+4607	jnl 0x124c
+4609	add r8d, r14d
+4612	lea rcx, ptr [rip+0xd5]
+4619	movsd qword ptr [rdx+r12*8], xmm0
+4625	lea rdx, ptr [rsp+0x40]
+4630	xor r9d, r9d
+4633	lea rax, ptr [rsp+0x60]
+4638	mov qword ptr [rax-0x20], rax
+4642	lea r10, ptr [rsp+0x68]
+4647	mov qword ptr [rax-0x18], r10
+4651	mov dword ptr [rax-0x10], r15d
+4655	mov dword ptr [rax-0xc], r13d
+4659	call 0x35bc <__cilkrts_cilk_for_32>
+4664	mov rax, qword ptr [rsp+0x60]
+4669	mov rdx, qword ptr [rsp+0x68]
+4674	mov r9, qword ptr [rax+r12*8]
+4678	movsd xmm0, qword ptr [rdx+r12*8]
+4684	divsd xmm0, qword ptr [r9+r12*8]
+4690	movsd qword ptr [rdx+r12*8], xmm0
+4696	dec r12
+4699	inc r14d
+4702	dec r13d
+4705	dec r15d
+4708	jns 0x11ea
+4710	xor r12d, r12d
+4713	mov edx, 0x8
+4718	mov rcx, qword ptr [rdi+r12*8]
+4722	call 0x35cc <??_V@YAXPEAX_K@Z>
+4727	inc r12
+4730	cmp r12, 0x5dc
+4737	jl 0x1269
+4739	lea rcx, ptr [rip+0x40a6]
+4746	call 0x1480 <printf>
+4751	xor edi, edi
+4753	movsd xmm2, qword ptr [rbp+rdi*8]
+4759	lea rcx, ptr [rip+0x409d]
+4766	movq r8, xmm2
+4771	mov edx, edi
+4773	call 0x1480 <printf>
+4778	inc rdi
+4781	cmp rdi, 0x5dc
+4788	jl 0x1291
+4790	mov rcx, rbp
+4793	mov edx, 0x8
+4798	call 0x35cc <??_V@YAXPEAX_K@Z>
+4803	xor eax, eax
+4805	add rsp, 0x78
+4809	pop rbp
+4810	pop r15
+4812	pop r14
+4814	pop r13
+4816	pop r12
+4818	pop rdi
+4819	ret 
+4820	nop dword ptr [rax+rax*1], eax
+4825	nop dword ptr [rax], eax

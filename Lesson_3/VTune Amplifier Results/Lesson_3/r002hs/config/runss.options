@@ -1,0 +1,18 @@
+-r
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\VTune Amplifier Results\Lesson_3\r002hs
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet,python
+--itt-config=frame
+--itt-config=task,event,counter
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=3400000,CPU_CLK_UNHALTED.REF_TSC:sa=3400000,INST_RETIRED.ANY:sample:sa=3400000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003,UOPS_RETIRED.RETIRE_SLOTS:sample:sa=2000003
+--collector=emon
+--count
+--
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\x64\Release\Lesson_3.exe

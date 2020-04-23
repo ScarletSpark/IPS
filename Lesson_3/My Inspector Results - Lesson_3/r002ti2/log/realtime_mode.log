@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\My Inspector Results - Lesson_3\r002ti2\r002ti2.inspxe </message>
+ <nop/>
+ <message severity="info">Found target process e:\univer\5_kurs\2_semeetr\ips\lesson_3\x64\release\lesson_3.exe (PID = 19204). Analysis started... </message>
+ <nop/>
+ <message severity="info">Loaded module: e:\univer\5_kurs\2_semeetr\ips\lesson_3\x64\release\lesson_3.exe. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcp140.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\user32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\win32u.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\gdi32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\gdi32full.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcp_win.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\imm32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel.appcore.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: e:\univer\5_kurs\2_semeetr\ips\lesson_3\x64\release\lesson_3.exe. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\ucrtbase.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\vcruntime140.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\msvcp140.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\user32.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\win32u.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\gdi32.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\gdi32full.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\msvcp_win.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\imm32.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\kernel.appcore.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Process e:\univer\5_kurs\2_semeetr\ips\lesson_3\x64\release\lesson_3.exe (PID = 19204) has terminated. </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\My Inspector Results - Lesson_3\r002ti2\r002ti2.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

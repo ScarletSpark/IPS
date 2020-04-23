@@ -1,0 +1,6 @@
+﻿  task_for_lecture3.cpp
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\task_for_lecture3.cpp(85): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    		cilk_for (int i = k + 1; i < rows; ++i)
+    		^
+  
+  Lesson_3.vcxproj -> E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\x64\Release\Lesson_3.exe

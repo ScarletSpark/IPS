@@ -1,0 +1,22 @@
+-r
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\My Inspector Results - Lesson_3\r002ti2
+--check-deadlock
+--check-potential-deadlock
+--save-stack-on-lock-creation
+--check-datarace
+--no-terminate-on-deadlock
+--resolution=standard
+--no-check-stack-access
+--stack-depth=1
+--sampling-budget=5
+--1cell-mode=last-write
+--tool=tclcore
+--no-save-stack-on-first-access
+--save-stack-on-allocation
+--check-cross-thread-stack-access
+--no-emit-ctsa-diagnostics
+--no-close-console
+--mrte-mode=auto
+--heartbeat=1
+--
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\x64\Release\Lesson_3.exe

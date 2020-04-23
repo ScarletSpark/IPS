@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/04/23 13:41:57</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\My Inspector Results - Lesson_3\r002ti2\r002ti2.inspxe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:57 2020</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>e:\univer\5_kurs\2_semeetr\ips\lesson_3\x64\release\lesson_3.exe</arg>
+  <arg>19204</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:57 2020</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>e:\univer\5_kurs\2_semeetr\ips\lesson_3\x64\release\lesson_3.exe</arg>
+  <arg>0x7ff7f4ca0000</arg>
+  <arg>0x7ff7f4cadfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:57 2020</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ff87f250000</arg>
+  <arg>0x7ff87f4f2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:57 2020</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ff880e70000</arg>
+  <arg>0x7ff880f21fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:57 2020</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ff882220000</arg>
+  <arg>0x7ff88240ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:57 2020</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>0x7ff880170000</arg>
+  <arg>0x7ff880269fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:57 2020</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <arg>0x7ff864990000</arg>
+  <arg>0x7ff8649a6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:58 2020</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140.dll</arg>
+  <arg>0x7ff8648a0000</arg>
+  <arg>0x7ff864938fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:58 2020</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <arg>0x7ff843340000</arg>
+  <arg>0x7ff843392fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:58 2020</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <arg>0x7ff881c00000</arg>
+  <arg>0x7ff881d93fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:58 2020</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <arg>0x7ff880270000</arg>
+  <arg>0x7ff880290fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:58 2020</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <arg>0x7ff881590000</arg>
+  <arg>0x7ff8815b5fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:58 2020</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <arg>0x7ff87f550000</arg>
+  <arg>0x7ff87f6e3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:58 2020</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp_win.dll</arg>
+  <arg>0x7ff87f180000</arg>
+  <arg>0x7ff87f21dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:58 2020</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <arg>0x7ff882120000</arg>
+  <arg>0x7ff88214dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:41:59 2020</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ff8686d0000</arg>
+  <arg>0x7ff868703fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:00 2020</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>18912,16248,18440,4548</arg>
+  <arg>1,1,1,0</arg>
+  <arg>793,7345,1424,10301802</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:01 2020</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>THREADNAME</type>
+  <arg>21340</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:02 2020</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>THREADNAME</type>
+  <arg>10372</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:02 2020</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>THREADNAME</type>
+  <arg>14312</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:02 2020</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>1220,683,64791,0,0,0,14808528</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:02 2020</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>726735,512750,360023,0,0,0,527459</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:03 2020</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>444762,321654,449862,0,0,0,321930</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:04 2020</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>371906,538062,333190,0,0,0,383172</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:05 2020</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>173282,217357,177932,0,0,0,162183</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:06 2020</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>368119,353801,414545,0,0,0,281565</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:07 2020</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>452214,433182,365080,0,0,0,348329</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:08 2020</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>400274,209521,301195,0,0,0,238033</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:09 2020</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>377778,202121,226566,0,0,0,299761</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:10 2020</timestamp>
+</msg>
+<msg id="34" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>444080,423884,436465,0,0,0,393488</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:11 2020</timestamp>
+</msg>
+<msg id="35" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>314192,276139,281160,0,0,0,342592</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:12 2020</timestamp>
+</msg>
+<msg id="36" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>282763,363191,347432,0,0,0,359009</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:13 2020</timestamp>
+</msg>
+<msg id="37" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>268840,242637,221193,0,0,0,373762</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:14 2020</timestamp>
+</msg>
+<msg id="38" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>293642,313423,296826,0,0,0,377161</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:15 2020</timestamp>
+</msg>
+<msg id="39" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>473547,399102,541472,0,0,0,297219</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:16 2020</timestamp>
+</msg>
+<msg id="40" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>368727,329504,343136,0,0,0,313987</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:17 2020</timestamp>
+</msg>
+<msg id="41" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>237221,181828,233204,0,0,0,274596</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:18 2020</timestamp>
+</msg>
+<msg id="42" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>429828,301007,418466,0,0,0,297472</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:19 2020</timestamp>
+</msg>
+<msg id="43" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>422598,343380,478125,0,0,0,474393</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:20 2020</timestamp>
+</msg>
+<msg id="44" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>393576,402397,432048,0,0,0,391271</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:21 2020</timestamp>
+</msg>
+<msg id="45" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>325977,326517,311738,0,0,0,333864</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:22 2020</timestamp>
+</msg>
+<msg id="46" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>391574,380803,355576,0,0,0,345217</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:23 2020</timestamp>
+</msg>
+<msg id="47" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>631300,484022,647907,0,0,0,432680</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:24 2020</timestamp>
+</msg>
+<msg id="48" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>591643,566618,611487,0,0,0,480329</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:25 2020</timestamp>
+</msg>
+<msg id="49" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>232083,234560,207237,0,0,0,354285</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:26 2020</timestamp>
+</msg>
+<msg id="50" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:27 2020</timestamp>
+</msg>
+<msg id="51" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:28 2020</timestamp>
+</msg>
+<msg id="52" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:29 2020</timestamp>
+</msg>
+<msg id="53" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:30 2020</timestamp>
+</msg>
+<msg id="54" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:31 2020</timestamp>
+</msg>
+<msg id="55" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:32 2020</timestamp>
+</msg>
+<msg id="56" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:33 2020</timestamp>
+</msg>
+<msg id="57" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:34 2020</timestamp>
+</msg>
+<msg id="58" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:35 2020</timestamp>
+</msg>
+<msg id="59" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:36 2020</timestamp>
+</msg>
+<msg id="60" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:37 2020</timestamp>
+</msg>
+<msg id="61" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:38 2020</timestamp>
+</msg>
+<msg id="62" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:39 2020</timestamp>
+</msg>
+<msg id="63" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:40 2020</timestamp>
+</msg>
+<msg id="64" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:41 2020</timestamp>
+</msg>
+<msg id="65" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:42 2020</timestamp>
+</msg>
+<msg id="66" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:43 2020</timestamp>
+</msg>
+<msg id="67" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:44 2020</timestamp>
+</msg>
+<msg id="68" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:45 2020</timestamp>
+</msg>
+<msg id="69" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:46 2020</timestamp>
+</msg>
+<msg id="70" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:47 2020</timestamp>
+</msg>
+<msg id="71" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:48 2020</timestamp>
+</msg>
+<msg id="72" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:49 2020</timestamp>
+</msg>
+<msg id="73" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:50 2020</timestamp>
+</msg>
+<msg id="74" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:51 2020</timestamp>
+</msg>
+<msg id="75" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:52 2020</timestamp>
+</msg>
+<msg id="76" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:53 2020</timestamp>
+</msg>
+<msg id="77" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:54 2020</timestamp>
+</msg>
+<msg id="78" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:55 2020</timestamp>
+</msg>
+<msg id="79" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:56 2020</timestamp>
+</msg>
+<msg id="80" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,18912,16248,18440,4548</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:57 2020</timestamp>
+</msg>
+<msg id="81" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,4548</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:58 2020</timestamp>
+</msg>
+<msg id="82" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,4548</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:42:59 2020</timestamp>
+</msg>
+<msg id="83" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,4548</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:00 2020</timestamp>
+</msg>
+<msg id="84" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,4548</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:01 2020</timestamp>
+</msg>
+<msg id="85" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,4548</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:02 2020</timestamp>
+</msg>
+<msg id="86" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>21340,10372,14312,4548</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,213277</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:03 2020</timestamp>
+</msg>
+<msg id="87" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ff87f0e0000</arg>
+  <arg>0x7ff87f0f0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:03 2020</timestamp>
+</msg>
+<msg id="88" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ff8814f0000</arg>
+  <arg>0x7ff88158dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:03 2020</timestamp>
+</msg>
+<msg id="89" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ff8813d0000</arg>
+  <arg>0x7ff8814effff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:03 2020</timestamp>
+</msg>
+<msg id="90" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>e:\univer\5_kurs\2_semeetr\ips\lesson_3\x64\release\lesson_3.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="91" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="92" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="93" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="94" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="95" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="96" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="97" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="98" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="99" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="100" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="101" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="102" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp_win.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="103" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="104" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="105" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="106" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="107" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="108" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>e:\univer\5_kurs\2_semeetr\ips\lesson_3\x64\release\lesson_3.exe</arg>
+  <arg>19204</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="109" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="110" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 23 13:43:04 2020</timestamp>
+</msg>
+<msg id="111" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="112" tool="runtool">
+  <type>marker-file</type>
+  <arg>E:\Univer\5_kurs\2_semeetr\IPS\Lesson_3\My Inspector Results - Lesson_3\r002ti2\r002ti2.inspxe</arg>
+</msg>
+<msg id="113" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="114" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/04/23 13:43:08</arg>
+</msg>
+
+</log>
+
