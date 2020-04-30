@@ -1,0 +1,47 @@
+
+=== Start: [2020/04/30 20:21:57] === 
+Analysis started...
+Result file: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r004ti1\r004ti1.inspxe 
+Found target process e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe (PID = 18960). Analysis started... 
+Loaded module: e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\ucrtbase.dll. 
+Loaded module: c:\windows\system32\msvcp140.dll. 
+Loaded module: c:\windows\system32\vcruntime140.dll. 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. 
+Loaded module: c:\windows\system32\user32.dll. 
+Loaded module: c:\windows\system32\win32u.dll. 
+Loaded module: c:\windows\system32\gdi32.dll. 
+Loaded module: c:\windows\system32\gdi32full.dll. 
+Loaded module: c:\windows\system32\msvcp_win.dll. 
+Loaded module: c:\windows\system32\imm32.dll. 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll. 
+Warning: Application uses too much memory to do full analysis. Continuing analysis; some problems may be missed. Try analyzing again with a smaller data set or an analysis type configuration with a narrower scope.
+Loaded module: c:\windows\system32\kernel.appcore.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\rpcrt4.dll. 
+Unloaded module: e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe. 
+Unloaded module: c:\windows\system32\kernelbase.dll. 
+Unloaded module: c:\windows\system32\kernel32.dll. 
+Unloaded module: c:\windows\system32\ntdll.dll. 
+Unloaded module: c:\windows\system32\ucrtbase.dll. 
+Unloaded module: c:\windows\system32\msvcp140.dll. 
+Unloaded module: c:\windows\system32\vcruntime140.dll. 
+Unloaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. 
+Unloaded module: c:\windows\system32\user32.dll. 
+Unloaded module: c:\windows\system32\win32u.dll. 
+Unloaded module: c:\windows\system32\gdi32.dll. 
+Unloaded module: c:\windows\system32\gdi32full.dll. 
+Unloaded module: c:\windows\system32\msvcp_win.dll. 
+Unloaded module: c:\windows\system32\imm32.dll. 
+Unloaded module: c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll. 
+Unloaded module: c:\windows\system32\kernel.appcore.dll. 
+Unloaded module: c:\windows\system32\msvcrt.dll. 
+Unloaded module: c:\windows\system32\rpcrt4.dll. 
+Process e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe (PID = 18960) has terminated. 
+Application exit code: 0 
+Result file: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r004ti1\r004ti1.inspxe 
+Analysis completed
+=== End: [2020/04/30 20:23:17] === 

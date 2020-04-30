@@ -1,0 +1,17 @@
+-r
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r000mi1
+--no-access-checks
+--no-analyze-stack
+--leak-maximum=100000
+--leak-check-only
+--leak-check-on-exit
+--check-resource-leaks
+--leak-check-report-reachable
+--freelist-vol=0
+--guard-zone-size=0
+--stack-depth=8
+--no-close-console
+--mrte-mode=auto
+--heartbeat=1
+--
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\x64\Release\Lesson_5.exe

@@ -1,0 +1,47 @@
+
+=== Start: [2020/04/30 19:21:33] === 
+Analysis started...
+Result file: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r002mi2\r002mi2.inspxe 
+Analysis started for e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe (pid = 16304) 
+Loaded module: e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe, address range [0x7ff6925a0000-0x7ff6925b1fff] 
+Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe20940000-0x7ffe20be2fff] 
+Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe22d50000-0x7ffe22e01fff] 
+Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe239e0000-0x7ffe23bcffff] 
+Loaded module: c:\windows\system32\ucrtbase.dll, address range [0x7ffe21900000-0x7ffe219f9fff] 
+Loaded module: c:\windows\system32\vcruntime140.dll, address range [0x7ffe07960000-0x7ffe07976fff] 
+Loaded module: c:\windows\system32\msvcp140.dll, address range [0x7ffe083b0000-0x7ffe08448fff] 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll, address range [0x7ffdf02d0000-0x7ffdf0322fff], minimal analysis 
+Loaded module: c:\windows\system32\user32.dll, address range [0x7ffe22ec0000-0x7ffe23053fff], minimal analysis 
+Loaded module: c:\windows\system32\win32u.dll, address range [0x7ffe21a00000-0x7ffe21a20fff] 
+Loaded module: c:\windows\system32\gdi32.dll, address range [0x7ffe226a0000-0x7ffe226c5fff] 
+Loaded module: c:\windows\system32\gdi32full.dll, address range [0x7ffe20bf0000-0x7ffe20d83fff], minimal analysis 
+Loaded module: c:\windows\system32\msvcp_win.dll, address range [0x7ffe20de0000-0x7ffe20e7dfff] 
+Loaded module: c:\windows\system32\imm32.dll, address range [0x7ffe22270000-0x7ffe2229dfff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll, address range [0x7ffdf0290000-0x7ffdf02c3fff], minimal analysis 
+Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffe20880000-0x7ffe20890fff] 
+Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe221d0000-0x7ffe2226dfff] 
+Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe22c10000-0x7ffe22d2ffff] 
+Process e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\x64\Release\Lesson_5.exe 
+Unloaded module: C:\WINDOWS\System32\KERNELBASE.dll 
+Unloaded module: C:\WINDOWS\System32\KERNEL32.DLL 
+Unloaded module: C:\WINDOWS\SYSTEM32\ntdll.dll 
+Unloaded module: C:\WINDOWS\System32\ucrtbase.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\MSVCP140.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll 
+Unloaded module: C:\WINDOWS\System32\USER32.dll 
+Unloaded module: C:\WINDOWS\System32\win32u.dll 
+Unloaded module: C:\WINDOWS\System32\GDI32.dll 
+Unloaded module: C:\WINDOWS\System32\gdi32full.dll 
+Unloaded module: C:\WINDOWS\System32\msvcp_win.dll 
+Unloaded module: C:\WINDOWS\System32\IMM32.DLL 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\runtime\libittnotify.dll 
+Unloaded module: C:\WINDOWS\System32\kernel.appcore.dll 
+Unloaded module: C:\WINDOWS\System32\msvcrt.dll 
+Unloaded module: C:\WINDOWS\System32\RPCRT4.dll 
+Completed analysis for e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe 
+Application exit code: 0 
+Result file: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r002mi2\r002mi2.inspxe 
+Analysis completed
+=== End: [2020/04/30 19:29:26] === 

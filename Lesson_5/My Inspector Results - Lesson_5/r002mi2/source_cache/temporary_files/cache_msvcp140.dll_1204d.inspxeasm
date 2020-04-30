@@ -1,0 +1,14 @@
+73776	_Cnd_destroy:
+73776	test rcx, rcx
+73779	jz 0x12058
+73781	push rbx
+73782	sub rsp, 0x20
+73786	mov rax, qword ptr [rcx]
+73789	mov rbx, rcx
+73792	mov rax, qword ptr [rax+0x20]
+73796	call qword ptr [rip+0x3f5be]
+73802	mov rcx, rbx
+73805	call qword ptr [rip+0x3f2d5]
+73811	add rsp, 0x20
+73815	pop rbx
+73816	ret 

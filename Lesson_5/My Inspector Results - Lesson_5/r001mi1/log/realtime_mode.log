@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r001mi1\r001mi1.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe (pid = 14716) </message>
+ <nop/>
+ <message severity="info">Loaded module: e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe, address range [0x7ff705ff0000-0x7ff706001fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe20940000-0x7ffe20be2fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe22d50000-0x7ffe22e01fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe239e0000-0x7ffe23bcffff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin64\dnclrprofinfo.dll, address range [0x7ffdf0290000-0x7ffdf02b8fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbase.dll, address range [0x7ffe21900000-0x7ffe219f9fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcp140.dll, address range [0x7ffe083b0000-0x7ffe08448fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll, address range [0x7ffdb6f10000-0x7ffdb6f62fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\user32.dll, address range [0x7ffe22ec0000-0x7ffe23053fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\win32u.dll, address range [0x229c27e0000-0x229c2800fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\gdi32.dll, address range [0x7ffe226a0000-0x7ffe226c5fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\gdi32full.dll, address range [0x229c28d0000-0x229c2a63fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcp_win.dll, address range [0x7ffe20de0000-0x7ffe20e7dfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140.dll, address range [0x7ffe07960000-0x7ffe07976fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\imm32.dll, address range [0x7ffe22270000-0x7ffe2229dfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll, address range [0x7ffddee00000-0x7ffddee33fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffe20880000-0x7ffe20890fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe221d0000-0x7ffe2226dfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe22c10000-0x7ffe22d2ffff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Process e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe exited with code 0. Leak analysis starting. Please wait... </message>
+ <nop/>
+ <message severity="info">Completed analysis for e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r001mi1\r001mi1.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

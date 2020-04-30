@@ -1,0 +1,15 @@
+-r
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\VTune Amplifier Results\Lesson_5\r004hs
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet,python
+--itt-config=frame
+--itt-config=task,event,counter
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\x64\Release\Lesson_5.exe

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\task_for_lecture5.cpp" md5="">
+    <snippet line="226">
+      <line line="223">        const size_t numb_cols = 10000;</line>
+      <line line="224"/>
+      <line line="225">        double** matrix = new double*[numb_rows];</line>
+      <line line="226">        for ( size_t i = 0; i &lt; numb_rows; ++i )</line>
+      <line line="227">        {</line>
+    </snippet>
+    <snippet line="229">
+      <line line="226">        for ( size_t i = 0; i &lt; numb_rows; ++i )</line>
+      <line line="227">        {</line>
+      <line line="228">            matrix[i] = new double[numb_cols];</line>
+      <line line="229">        }</line>
+      <line line="230"/>
+    </snippet>
+    <snippet line="232">
+      <line line="229">        }</line>
+      <line line="230"/>
+      <line line="231">        double* average_vals_in_rows = new double[numb_rows];</line>
+      <line line="232">        double* average_vals_in_cols = new double[numb_cols];</line>
+      <line line="233"/>
+    </snippet>
+    <snippet line="233">
+      <line line="230"/>
+      <line line="231">        double* average_vals_in_rows = new double[numb_rows];</line>
+      <line line="232">        double* average_vals_in_cols = new double[numb_cols];</line>
+      <line line="233"/>
+      <line line="234">        InitMatrix( matrix, numb_rows, numb_cols );</line>
+    </snippet>
+  </file>
+</snippets>

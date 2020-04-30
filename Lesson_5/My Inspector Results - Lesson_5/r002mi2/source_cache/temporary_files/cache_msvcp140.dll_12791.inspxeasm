@@ -1,0 +1,15 @@
+75632	_Mtx_destroy:
+75632	test rcx, rcx
+75635	jz 0x1279c
+75637	push rbx
+75638	sub rsp, 0x20
+75642	mov rbx, rcx
+75645	add rcx, 0x8
+75649	mov rax, qword ptr [rcx]
+75652	mov rax, qword ptr [rax+0x20]
+75656	call qword ptr [rip+0x3ee7a]
+75662	mov rcx, rbx
+75665	call qword ptr [rip+0x3eb91]
+75671	add rsp, 0x20
+75675	pop rbx
+75676	ret 

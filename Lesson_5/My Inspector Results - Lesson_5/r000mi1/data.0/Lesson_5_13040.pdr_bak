@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>1217784791</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>14392</threadid>
+			<stackstamp>1217824469</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x56cc</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>17206835220</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>1388</threadid>
+			<stackstamp>17206876206</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x20e30</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>17582394117</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>19488</threadid>
+			<stackstamp>17582409553</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x20e30</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="4">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>18020791156</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>1388</threadid>
+			<stackstamp>18020807114</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="5">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>22988146152</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>19488</threadid>
+			<stackstamp>22988160967</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="6">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>22995906637</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>18616</threadid>
+			<stackstamp>22995921439</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="7">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>22997133106</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>27004</threadid>
+			<stackstamp>22997148079</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="8">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>22998294185</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>6524</threadid>
+			<stackstamp>22998309463</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="9">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>26768617771</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>6524</threadid>
+			<stackstamp>26768632715</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="10">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>26768860101</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>14392</threadid>
+			<stackstamp>26768874427</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="11">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>26769225558</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>18616</threadid>
+			<stackstamp>26769240184</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="12">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>26769459827</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>27004</threadid>
+			<stackstamp>26769474305</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="13">
+	<type>1012</type>
+	<message>
+		<timestamp>26791949776</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>80000</size>
+			<threadid>14392</threadid>
+			<stackstamp>8419885467</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x106f</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x565b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bd3</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ced0</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="14">
+	<type>1012</type>
+	<message>
+		<timestamp>26791949776</timestamp>
+		<mess_blocks>10000</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>800000000</size>
+			<threadid>14392</threadid>
+			<stackstamp>8546696893</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x1082</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x565b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bd3</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ced0</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="15">
+	<type>1012</type>
+	<message>
+		<timestamp>26791949776</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>80000</size>
+			<threadid>14392</threadid>
+			<stackstamp>8643955144</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x10a3</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x565b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bd3</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ced0</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="16">
+	<type>1012</type>
+	<message>
+		<timestamp>26791949776</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>80000</size>
+			<threadid>14392</threadid>
+			<stackstamp>8643973622</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x10b4</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x565b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bd3</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ced0</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="17">
+	<type>1016</type>
+	<message>
+		<timestamp>26796518115</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>4096</size>
+			<threadid>1388</threadid>
+			<stackstamp>18019263060</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x7121</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x22737</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x228f6</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x22993</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x1c14</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x3077</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x31d6</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x2e58</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x20e71</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="18">
+	<type>1016</type>
+	<message>
+		<timestamp>26796518115</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>81</size>
+			<threadid>14392</threadid>
+			<stackstamp>8419348681</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x1146d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x1c63d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x1bd3b</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x54c1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x1bc52</rva>
+			</loc>
+			<loc>
+				<mod>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</mod>
+				<rva>0x55af</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bd3</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ced0</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+</diags>

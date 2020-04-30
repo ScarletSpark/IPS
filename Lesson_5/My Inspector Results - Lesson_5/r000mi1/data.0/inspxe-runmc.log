@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/04/30 19:04:47</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r000mi1\r000mi1.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</arg>
+  <arg>13040</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:48 2020</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</arg>
+  <arg>0x7ff63bbe0000</arg>
+  <arg>0x7ff63bbf1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:49 2020</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ffe20940000</arg>
+  <arg>0x7ffe20be2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:49 2020</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ffe22d50000</arg>
+  <arg>0x7ffe22e01fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:49 2020</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ffe239e0000</arg>
+  <arg>0x7ffe23bcffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin64\dnclrprofinfo.dll</arg>
+  <arg>0x7ffdf14a0000</arg>
+  <arg>0x7ffdf14c8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>0x7ffe21900000</arg>
+  <arg>0x7ffe219f9fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\msvcp140.dll</arg>
+  <arg>0x7ffe083b0000</arg>
+  <arg>0x7ffe08448fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <arg>0x7ffdb3e70000</arg>
+  <arg>0x7ffdb3ec2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <arg>0x7ffe22ec0000</arg>
+  <arg>0x7ffe23053fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <arg>0x25aaa940000</arg>
+  <arg>0x25aaa960fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <arg>0x7ffe226a0000</arg>
+  <arg>0x7ffe226c5fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <arg>0x25aaaa30000</arg>
+  <arg>0x25aaabc3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\msvcp_win.dll</arg>
+  <arg>0x7ffe20de0000</arg>
+  <arg>0x7ffe20e7dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <arg>0x7ffe07960000</arg>
+  <arg>0x7ffe07976fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <arg>0x7ffe22270000</arg>
+  <arg>0x7ffe2229dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:50 2020</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ffde3c70000</arg>
+  <arg>0x7ffde3ca3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:51 2020</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ffe20880000</arg>
+  <arg>0x7ffe20890fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:53 2020</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ffe221d0000</arg>
+  <arg>0x7ffe2226dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:53 2020</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ffe22c10000</arg>
+  <arg>0x7ffe22d2ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:53 2020</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:56 2020</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>e:\univer\5_kurs\2_semeetr\ips\lesson_5\x64\release\lesson_5.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 19:04:56 2020</timestamp>
+</msg>
+<msg id="26" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="27" tool="runtool">
+  <type>marker-file</type>
+  <arg>E:\Univer\5_kurs\2_semeetr\IPS\Lesson_5\My Inspector Results - Lesson_5\r000mi1\r000mi1.inspxe</arg>
+</msg>
+<msg id="28" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="29" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/04/30 19:05:00</arg>
+</msg>
+
+</log>
+

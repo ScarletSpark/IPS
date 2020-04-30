@@ -1,0 +1,50 @@
+21740	pre_c_initialization:
+21740	push rbx
+21742	sub rsp, 0x20
+21746	mov ecx, 0x1
+21751	call 0x6392 <_set_app_type>
+21756	call 0x5ef0 <_get_startup_file_mode>
+21761	mov ecx, eax
+21763	call 0x63c8 <_set_fmode>
+21768	call 0x63f8 <__p__commode>
+21773	mov rbx, rax
+21776	call 0x5ee4 <_matherr>
+21781	mov ecx, 0x1
+21786	mov dword ptr [rbx], eax
+21788	call 0x5c0c <__scrt_initialize_onexit_tables>
+21793	test al, al
+21795	jz 0x5598
+21797	call 0x6148 <_RTC_Initialize>
+21802	lea rcx, ptr [rip+0xc53] <_RTC_Terminate>
+21809	call 0x5e20 <atexit>
+21814	call 0x5ee8 <_get_startup_argv_mode>
+21819	mov ecx, eax
+21821	call 0x639e <_configure_narrow_argv>
+21826	test eax, eax
+21828	jnz 0x5598
+21830	call 0x5ef8 <?__scrt_initialize_type_info@@YAXXZ>
+21835	call 0x5f34 <__scrt_is_user_matherr_present>
+21840	test eax, eax
+21842	jz 0x5560
+21844	lea rcx, ptr [rip+0x989] <_matherr>
+21851	call 0x6398 <__setusermatherr>
+21856	call 0x5f0c <_initialize_invalid_parameter_handler>
+21861	call 0x5f0c <_initialize_invalid_parameter_handler>
+21866	call 0x5ee4 <_matherr>
+21871	mov ecx, eax
+21873	call 0x63ec <_configthreadlocale>
+21878	call 0x5f08 <_should_initialize_environment>
+21883	test al, al
+21885	jz 0x5584
+21887	call 0x63a4 <_initialize_narrow_environment>
+21892	call 0x5ee4 <_matherr>
+21897	call 0x60a4 <__scrt_initialize_mta>
+21902	test eax, eax
+21904	jnz 0x5598
+21906	add rsp, 0x20
+21910	pop rbx
+21911	ret 
+21912	mov ecx, 0x7
+21917	call 0x5f58 <__scrt_fastfail>
+21922	int3 
+21923	int3 

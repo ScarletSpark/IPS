@@ -1,0 +1,2 @@
+﻿  task_for_lecture5.cpp
+e:\univer\5_kurs\2_semeetr\ips\lesson_5\task_for_lecture5.cpp(6): fatal error C1083: Не удается открыть файл включение: cilk/cilk.h: No such file or directory,
