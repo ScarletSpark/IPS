@@ -4,7 +4,6 @@
 long long num = 100000000;
 double step;
 
-omp_lock_t writelock;
 
 double par(void)
 {
@@ -16,18 +15,15 @@ double par(void)
 	double S = 0.0;
 	step = 1.0 / (double)num;
 	double t = omp_get_wtime();
-	omp_init_lock(&writelock);
 
 #pragma omp parallel for private(x) reduction(+:S) num_threads(num_of_threads)
 	for (i = 0; i < num; i++)
 	{
 		x = (i + 0.5)*step;
 		S = S + 4.0 / (1.0 + x*x);
-		omp_set_lock(&writelock);
+#pragma omp critical 
 		inc++;
-		omp_unset_lock(&writelock);
 	}
-	omp_destroy_lock(&writelock);
 	t = omp_get_wtime() - t;
 	pi = step * S;
 	printf("Par: pi = %.14f\n", pi);
