@@ -1,0 +1,17 @@
+-r
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_7\VTune Amplifier Results\Lesson_7\r004cgc
+--itt-config=frame
+--etw-config=dma,frames
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=3400000,CPU_CLK_UNHALTED.REF_TSC:sa=3400000,INST_RETIRED.ANY:sample:sa=3400000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003
+--event-config=UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES
+--platform-type=88
+--uncore-sampling-interval=10
+--mrte-mode=auto
+--etw-config=clr,js
+--stdsrc-config=cswitch
+--p-state-trigger=CPU_CLK_UNHALTED.REF_TSC
+--
+E:\Univer\5_kurs\2_semeetr\IPS\Lesson_7\x64\Release\Lesson_7.exe
